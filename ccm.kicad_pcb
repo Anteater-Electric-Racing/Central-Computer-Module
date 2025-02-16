@@ -75,9 +75,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -3601,7 +3601,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "0756ac1c-e029-41d2-96f2-e8c93c8771eb")
 			(effects
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "b13e072e-789e-48b8-a9cf-52b9c38b0be3")
 			(effects
@@ -3767,7 +3767,7 @@
 			(uuid "893a007d-4a31-4317-ac36-d1607823dc96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "216f8251-821e-405f-b16f-235eebc145a8")
 			(effects
@@ -5305,7 +5305,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at -0.05 1.5 360)
+			(at -0.05 1.5 0)
 			(layer "F.SilkS")
 			(uuid "bef881d1-5118-44b7-9da8-d22b1d143fb2")
 			(effects
@@ -5316,7 +5316,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at -1.05 -1.75 360)
+			(at -1.05 -1.75 0)
 			(layer "F.Fab")
 			(uuid "3cec547d-e6ed-4c3e-95f6-e613dd8dc57b")
 			(effects
@@ -5471,7 +5471,7 @@
 			(uuid "7cdd9a1f-0f57-4c40-91d5-7959d94304f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4a9b1b1c-2836-40e0-a65d-99f173992e68")
 			(effects
