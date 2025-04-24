@@ -20708,7 +20708,7 @@
 		(layer "Edge.Cuts")
 		(uuid "9bcdffdd-08a8-4240-bbe1-2922cbc9d1b1")
 	)
-	(gr_text "Central Computer \nModule v1"
+	(gr_text "Central Computer \nModule v2\n"
 		(at 151.25 133.5 0)
 		(layer "F.SilkS")
 		(uuid "cc5d6e17-0a64-45a5-902b-a9966d1779f9")
